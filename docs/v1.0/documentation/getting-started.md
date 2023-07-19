@@ -21,8 +21,8 @@
 ```html
 <script>
     let versions = [
-      { folder: 'v2.0/', label: 'v2.x', default: true },
-      { folder: 'v1.0/', label: 'v1.x', default: false }
+      { folder: 'v2.0/', label: 'v2.x', default: false },
+      { folder: 'v1.0/', label: 'v1.x', default: true }
     ];
     let basePath = sessionStorage.getItem("basePath");
     if (basePath == null) {
